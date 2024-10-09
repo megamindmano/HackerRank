@@ -1,0 +1,11 @@
+read text 
+
+if [[($text == 'n') || ($text == 'N')]]
+then
+    echo "NO"
+fi
+
+if [[($text == 'y') || ($text == 'Y')]]
+then
+    echo "YES"
+fi
